@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: linear-gradient(to right, #525252, #3d72b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.photo{
+    width: 10%;
+    height: 80px;
+    border-radius: 50%;
+    border-radius: 10px double rgb(255, 255, 255) ;
+    float: right;
+    background-size: cover;
+    border: 2px double wheat;
+
+}
+.h1{
+    float: right;
+    line-height: 100px;
+transform:translateX(-12px);
+font-family: 'ZCOOL KuaiLe', cursive;
+}
+nav{
+    background: linear-gradient(to right, #525252, #3d72b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 70%;
+    text-align: center;
+    
+}
+.a{
+    text-decoration: none;
+text-align: center;
+color: rgb(255, 255, 255);
+background-color: none;
+}
+nav li{
+    
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    line-height: 80px;
+    
+    color: black;
+    font-size: 30px;
+    transition: 25 width 35 ;
+    background-color: black;
+    border-radius: 20px ;
+    border: 2px double linear-gradient(to right, #525252, #3d72b4);
+    border: 2px double wheat;
+}
+
+nav li:hover{
+color: rgb(0, 0, 0);
+background: linear-gradient(to right, #525252, #3d72b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 20px ;
+}
+main{
+    width: 70%;
+    height: 1000px;
+    background-color: #0055ff;
+    background-size:cover;
+    transform: translate(319px , 10px);
+    border: 2px double rgb(0, 0, 0);
+    display: inline-block ;
+    float: right;
+   animation-name:foda;
+animation-duration:10s;
+animation-iteration-count: infinite;
+}
+
+ 
+
+
+
+
+@keyframes foda {
+   0%{
+    background-color: aliceblue;
+} 
+
+50%{
+    background-color: rgb(247, 126, 126);
+}
+75%{
+    background-color: rgb(255, 0, 0);
+
+}
+100%{
+    background-color: rgb(167, 247, 184);
+
+}
+}
+
+
+
+.as{
+    background-color: aliceblue;
+    width: 29%;
+    display: block;
+    transform: translate(-2px , -995px);
+
+}
+p{
+    background: linear-gradient(to right, #525252, #3d72b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    transform: translate(-0px , 50px);
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 2px double wheat;
+
+
+}
+.p{
+    transform: translate(-10px , 50px);
+  
+}
+.po{
+    transform: translate(-2px , 40px);
+    width: 100%;
+}
+ .amr1{
+     width: 30%;
+     height: 200px;
+     display: block;
+     float: right;
+     transform: translate(-10px , 70px );
+     border-radius: 20px;
+     
+
+ }
+ 
+ 
+ .amr2{
+     float: right;
+    transform: translate(220px , 280px );
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #c7c4c4;
+    width: 20%;
+    text-align: center;
+    border-radius: 20px;
+        line-height: 30px;
+
+ }
+
+.amr2:hover {
+background-color: beige;
+}
+.tamer1{
+    width: 30%;
+    height: 200px;
+    display: block;
+    float: right;
+    transform: translate(170px , 70px );
+    border-radius: 20px;
+
+}
+.tamer2{
+    float: right;
+   transform: translate(400px , 280px );
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   background-color: #c7c4c4;
+   width: 20%;
+   text-align: center;
+   border-radius: 20px;
+       line-height: 30px;
+
+}
+.tamer2:hover {
+background-color: beige;
+}
+
+
+.tamera1{
+    width: 30%;
+    height: 200px;
+    display: block;
+    float: right;
+    transform: translate(-600px , -130px );
+    border-radius: 20px;
+
+}
+.tamera2{
+    float: right;
+   transform: translate(-350px , 79px );
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   background-color: #c7c4c4;
+   width: 20%;
+   text-align: center;
+   border-radius: 20px;
+       line-height: 30px;
+
+}
+.tamera2:hover {
+background-color: beige;
+}
+.amar1{
+    width: 30%;
+    height: 200px;
+    display: block;
+    float: right;
+    transform: translate(465px , 160px );
+    border-radius: 20px;
+
+}
+.amar2{
+    float: right;
+   transform: translate(700px , 375px );
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   background-color: #c7c4c4;
+   width: 20%;
+   text-align: center;
+   border-radius: 20px;
+       line-height: 30px;
+
+}
+.amar2:hover {
+background-color: beige;
+}
+.asi1{
+    width: 30%;
+    height: 200px;
+    display: block;
+    float: right;
+    transform: translate(-300px , -40px );
+    border-radius: 20px;
+
+}
+.asi2{
+    float: right;
+   transform: translate(-60px , 175px );
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   background-color: #c7c4c4;
+   width: 20%;
+   text-align: center;
+   border-radius: 20px;
+       line-height: 30px;
+
+}
+.asi2:hover {
+background-color: beige;
+}
+.ham1{
+    width: 30%;
+    height: 200px;
+    display: block;
+    float: right;
+    transform: translate(-125px , -40px );
+    border-radius: 20px;
+
+}
+.ham2{
+    float: right;
+   transform: translate(110px , 175px );
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   background-color: #c7c4c4;
+   width: 20%;
+   text-align: center;
+   border-radius: 20px;
+       line-height: 30px;
+
+}
+.ham2:hover {
+background-color: beige;
+}
+aside{
+    width: 40%;
+    height: 1000px;
+    float: left;
+    transform: translate(-390px , -640px);
+        line-height: 1000px;
+        display: block;
+
+
+}
+.as{
+    float: left;
+    display: block;
+
+}
+.call{
+    width: 10%;
+    float: left;
+    display: block;
+
+}
+.fa{
+    width: 15%;
+    float: left;
+    display: block;
+    transform: translate(50px , 80px);
+
+}
+.tw{
+    width: 15%;
+    float: left;
+    display: block;
+    transform: translate(480px , 80px);
+
+}
+.you{
+    width: 15%;
+    float: left;
+    display: block;
+    transform: translate(50px , 80px);
+
+}
+.aalan{
+    text-align: center;
+    transform: translate(-10px , -370px);
+    display: inline-block;
+}
+.top{
+    transform: translate(-10px ,-770px);
+
+}
+.fokas{
+    text-align: right;
+    width: 50px;
+}
+.fokas{
+    font-size: 30px;
+    float: right;
+}
+@media(min-width:150px) and (max-width:1345px){
+
+    main {
+        width: 69%;
+        height: 1000px;
+        background-color: #cbccce;
+        border: 2px double rgb(0, 0, 0);
+        display: inline-block ;
+        text-align: center;
+        transform: translate(110px , 10px );
+        
+    
+    }
+ .h1{
+     font-size: 10px;
+     transform: translate(-10px ,-15px);
+
+ }   
+ nav{
+    background: linear-gradient(to right, #525252, #3d72b4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 60%;
+    text-align: center;
+    
+}
+.a{
+    font-size: 15px;
+}
+.as{
+    transform: translate(0px ,-1000px);
+    display: inline-block;
+
+}
+
+.amr1{
+    width: 30%;
+    height: 200px;
+    display: block;
+    float: right;
+    transform: translate(-30px , 70px );
+    border-radius: 20px;
+
+}
+.amr2{
+    float: right;
+   transform: translate(70px , 280px );
+   display: block;
+   text-decoration: none;
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+   background-color: #c7c4c4;
+   width: 40%;
+   text-align: center;
+   border-radius: 20px;
+       line-height: 30px;
+
+}
+.amr2:hover {
+background-color: beige;
+}
+.tamer1{
+   width: 30%;
+   height: 200px;
+   display: block;
+   float: right;
+   transform: translate(50px , 70px );
+   border-radius: 20px;
+
+}
+.tamer2{
+   float: right;
+  transform: translate(-120px , 80px );
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #c7c4c4;
+  width: 40%;
+  text-align: center;
+  border-radius: 20px;
+      line-height: 30px;
+
+}
+.tamer2:hover {
+background-color: beige;
+}
+
+
+.tamera1{
+   width: 30%;
+   height: 200px;
+   display: block;
+   float: right;
+   transform: translate(-30px , 150px );
+   border-radius: 20px;
+
+}
+.tamera2{
+   float: right;
+   transform: translate(-130px , 170px );
+   display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #c7c4c4;
+  width: 40%;
+  text-align: center;
+  border-radius: 20px;
+      line-height: 30px;
+
+}
+.tamera2:hover {
+background-color: beige;
+}
+.amar1{
+   width: 30%;
+   height: 200px;
+   display: block;
+   float: right;
+   transform: translate(70px , -55px );
+   border-radius: 20px;
+
+}
+.amar2{
+   float: right;
+  transform: translate(-20px , -30px );
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #c7c4c4;
+  width: 40%;
+  text-align: center;
+  border-radius: 20px;
+      line-height: 30px;
+
+}
+.amar2:hover {
+background-color: beige;
+}
+.asi1{
+   width: 30%;
+   height: 200px;
+   display: block;
+   float: right;
+   transform: translate(-25px , 50px );
+   border-radius: 20px;
+
+}
+.asi2{
+   float: right;
+  transform: translate(-120px , 65px );
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #c7c4c4;
+  width: 40%;
+  text-align: center;
+  border-radius: 20px;
+      line-height: 30px;
+
+}
+.asi2:hover {
+background-color: beige;
+}
+.ham1{
+   width: 30%;
+   height: 200px;
+   display: block;
+   float: right;
+   transform: translate(70px , -150px );
+   border-radius: 20px;
+
+}
+.ham2{
+   float: right;
+  transform: translate(-10px , -135px );
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: #c7c4c4;
+  width: 40%;
+  text-align: center;
+  border-radius: 20px;
+      line-height: 30px;
+
+}
+.ham2:hover {
+background-color: beige;
+}
+.fa{
+    transform: translate(15px , 80px);
+}
+.you{
+    transform: translate(15px , 80px);
+   
+}
+
+}
